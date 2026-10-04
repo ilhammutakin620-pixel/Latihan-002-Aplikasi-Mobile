@@ -12,6 +12,7 @@ Anggota Kelompok
 1. Muhammad Ilham Muttaqim (1124160073)
 2. Ilham Budi Handika (1124160152)
 
+``` dart
 void main() {
   double totalBelanja = 150000;
   bool member = true;
@@ -32,7 +33,7 @@ void main() {
   if (potongan > 250000) {
     potongan = 250000;
   }
-  
+   
   double totalBayar = totalBelanja - 
  potongan;
   
@@ -41,3 +42,4 @@ print("Status Member : ${member ? "Ya" : "Tidak"}");
 print("Potongan     :Rp${potongan.toStringAsFixed(0)}");
 print("Total Bayar  :Rp${totalBayar.toStringAsFixed(0)}");
 }
+```
