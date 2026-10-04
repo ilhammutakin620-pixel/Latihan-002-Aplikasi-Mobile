@@ -34,8 +34,8 @@ void main() {
   double potongan = totalBelanja *
  persenDiskon / 100;
   
-  if (potongan > 250000) {
-    potongan = 250000;
+  if (potongan > 25000) {
+    potongan = 25000;
   }
   
   double totalBayar = totalBelanja - 
