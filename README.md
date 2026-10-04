@@ -1,6 +1,6 @@
 
-Tugas Kelompok - Latihan 1 (Kasir Diskon)
-Latihan pertemuan ke 2 DART untuk menghitung total pembayaran pelanggan berdasarkan jumlah belanja dan status member.
+Tugas Kelompok - Latihan 2 (Kasir Diskon)
+Latihan pertemuan ke 2 DART untuk menghitung total pembayaran pelanggan berdasarkan jumlah belanja dan status (member).
 
 Deskripsi Aturan Bisnis (Business Rule)
 Program ini menerapkan beberapa aturan diskon sebagai berikut:
@@ -8,10 +8,9 @@ Program ini menerapkan beberapa aturan diskon sebagai berikut:
 Belanja minimal 100.000 mendapatkan diskon dasar 10%.
 Pelanggan dengan status member mendapatkan tambahan diskon 5%.
 Potongan diskon maksmimal yang bisa di dapatkan pelanggan adalah 25.000.
-
-Anggota Kelompok
-1. Muhammad Ilham Muttaqim (1124160073)
-2. Ilham Budi Handika (1124160152)
+Anggota kelompok
+Muhammad Ilham Muttaqim (1124160073)
+Ilham Budi handika (1124160152)
 
 ``` dart
 void main() {
