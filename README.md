@@ -1,3 +1,4 @@
+
 Tugas Kelompok - Latihan 1 (Kasir Diskon)
 Latihan pertemuan ke 2 DART untuk menghitung total pembayaran pelanggan berdasarkan jumlah belanja dan status member.
 
@@ -16,7 +17,35 @@ Anggota Kelompok
 void main() {
   double totalBelanja = 150000;
   bool member = true;
+  void main() {
+  double totalBelanja = 150000;
+  bool member = true;
   
+  double persenDiskon = 0;
+  
+  if (totalBelanja >= 100000) {
+    persenDiskon = 10;
+    
+    if (member) {
+      persenDiskon = 15;
+    }
+  }
+  
+  double potongan = totalBelanja *
+ persenDiskon / 100;
+  
+  if (potongan > 250000) {
+    potongan = 250000;
+  }
+  
+  double totalBayar = totalBelanja - 
+ potongan;
+  
+print("Total Belanja : Rp${totalBelanja.toStringAsFixed(0)}");
+print("Status Member : ${member ? "Ya" : "Tidak"}");
+print("Potongan     :Rp${potongan.toStringAsFixed(0)}");
+print("Total Bayar  :Rp${totalBayar.toStringAsFixed(0)}");
+}
   double persenDiskon = 0;
   
   if (totalBelanja >= 100000) {
