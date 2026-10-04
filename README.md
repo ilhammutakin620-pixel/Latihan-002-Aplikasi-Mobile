@@ -5,12 +5,12 @@ Latihan pertemuan ke 2 DART untuk menghitung total pembayaran pelanggan berdasar
 Deskripsi Aturan Bisnis (Business Rule)
 Program ini menerapkan beberapa aturan diskon sebagai berikut:
 
-Belanja minimal 100.000 mendapatkan diskon dasar 10%.
-Pelanggan dengan status member mendapatkan tambahan diskon 5%.
-Potongan diskon maksmimal yang bisa di dapatkan pelanggan adalah 25.000.
+- Belanja minimal 100.000 mendapatkan diskon dasar 10%.
+- Pelanggan dengan status member mendapatkan tambahan diskon 5%.
+- Potongan diskon maksmimal yang bisa di dapatkan pelanggan adalah 25.000.
 Anggota kelompok
-Muhammad Ilham Muttaqim (1124160073)
-Ilham Budi handika (1124160152)
+1. Muhammad Ilham Muttaqim (1124160073)
+2. Ilham Budi handika (1124160152)
 
 ``` dart
 void main() {
